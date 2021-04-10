@@ -1,0 +1,47 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  opacity: 0;
+  transition: 0.2s z-index linear, 0.2s opacity linear;
+}
+
+.modal.open {
+  z-index: 10;
+  opacity: 1;
+  transition: 0.2s z-index linear, 0.2s opacity linear;
+}
+
+#open-link-button {
+  width: 3em;
+  margin: 0px 30px 10px 20px;
+}
+.media-link-container {
+  z-index: 99;
+  position: relative;
+  width: 50vmax;
+  height: 30vmax;
+}
+
+.media-link-container iframe {
+  width: 50vmax;
+  height: 30vmax;
+}
+
+#close-link-button {
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  box-shadow: 1px 2px 4px 4px #888888;
+}

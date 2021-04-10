@@ -1,0 +1,30 @@
+.add-song-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 40vh;
+}
+.add-song-panel {
+  width: 40vmin;
+  margin: 0 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error-popup {
+  width: 40vmin;
+  background-color: rgb(255, 230, 234);
+  border: 0.5px solid rgb(251, 186, 230);
+  padding: 1em;
+  text-align: center;
+  border-radius: 5px;
+}
+#sign-button {
+  width: 2em;
+  height: 2em;
+  z-index: 100;
+}
+@media screen and (max-width: 800px) {
+}
