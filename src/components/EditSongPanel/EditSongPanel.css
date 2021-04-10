@@ -1,7 +1,7 @@
 .edit-panel {
   display: flex;
   flex-direction: column;
-  width: 60vmin;
+  width: 50vmin;
 }
 
 button {
@@ -13,7 +13,7 @@ button {
 input {
   border-radius: 5px;
   outline: 0px none transparent;
-  width: 40vmin;
+  width: 35vmin;
   height: 2em;
   margin: 4px;
 }
@@ -22,7 +22,7 @@ input {
 } */
 select {
   border-radius: 5px;
-  width: 40vmin;
+  width: 35vmin;
   height: 2em;
 }
 
