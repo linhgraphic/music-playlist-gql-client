@@ -9,7 +9,6 @@ import { setContext } from "@apollo/client/link/context";
 import "semantic-ui-css/semantic.min.css";
 import { Container } from "semantic-ui-react";
 import PlayList from "./components/Playlist";
-import AddSong from "./components/AddSong";
 import NavBar from "./components/NavBar";
 import { AuthProvider } from "./context/Auth";
 import { UserProvider } from "./context/User";

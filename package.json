@@ -40,5 +40,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },"proxy":"https://serene-shelf-76717.herokuapp.com/"
+  },
+  "proxy": "https://serene-shelf-76717.herokuapp.com/"
 }
