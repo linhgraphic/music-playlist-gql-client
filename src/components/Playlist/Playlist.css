@@ -14,9 +14,7 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-.songs-container.logout {
-  height: 95vh;
-}
+
 .songs-container .song-container {
   border: 1px solid rgb(153, 153, 153);
   border-radius: 10px;
