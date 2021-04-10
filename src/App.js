@@ -14,7 +14,9 @@ import NavBar from "./components/NavBar";
 import { AuthProvider } from "./context/Auth";
 import { UserProvider } from "./context/User";
 
-const httpLink = createHttpLink({ uri: "http://localhost:3002/playlist" });
+const httpLink = createHttpLink({
+  uri: "https://serene-shelf-76717.herokuapp.com/",
+});
 const authLink = setContext(() => {
   const token = localStorage.getItem("jwtToken");
   return { headers: { authorization: token ? `Bearer ${token}` : "" } };
