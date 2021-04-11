@@ -7,7 +7,11 @@ const IframeModal = ({ children, onClick = () => null, open, onOpenLink }) => (
       <button id="close-link-button" onClick={onOpenLink}>
         <h2>x</h2>
       </button>
-      <iframe src="#" name="media" title="Open link to media"></iframe>
+      <iframe
+        src="http://linhgraphics.com/"
+        name="media"
+        title="Open link to media"
+      ></iframe>
     </div>
   </div>
 );
